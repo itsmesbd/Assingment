@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/tumblr_nyolmrFSnH1sr8cguo1_500.webp");
+    background-image: url("/images/sky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -14,7 +14,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #1bee3e;
+    color: darkslategrey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,11 +30,11 @@ body {
   /* Add a color to the active/current link */
   .topnav a.active {
     
-    color: #1bee3e;
+    color: darkslategrey;
   }  
 
 h1{
-    color: maroon;
+    color: black;
     text-align: center;
     text-shadow: 2px 2px 5px yellow;
 }
@@ -47,10 +47,41 @@ h1{
 }
 
 
-.firstLeftDiv{
-   height: 200px;
-   width: 14%;
-    float: right;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 185px;
+  margin-right: 0%;
+  text-align: center;
+  font-family: arial;
+  float: right;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
 
 #secondDiv{
@@ -59,12 +90,12 @@ h1{
 
 #secondDiv.dl,dt{
     font-weight: bold;
-    color: darkred;
+    color: blue;
     text-shadow: 2px 2px 5px yellow;
 }
 p{
     font-weight: bold;
-    color: darkred;
+    color: blue;
     text-shadow: 2px 2px 5px yellow;
 }
 
@@ -74,10 +105,40 @@ h3{
 
 aside {
   width: 15%;
-  padding-left: .5rem;
-  margin-left: .5rem;
+  padding-left: .1rem;
+  margin-left: .1rem;
   float: right;
   box-shadow: inset 5px 0 5px -5px yellow;
   font-style: italic;
   color: darkred;
+}
+aside > p {
+  margin: .2rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: silver;
+  color: white;
+  text-align: center;
 }
