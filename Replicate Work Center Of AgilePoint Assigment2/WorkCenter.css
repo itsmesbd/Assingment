@@ -1,0 +1,274 @@
+/*This is for increase the size of 7 in div(id=1.2)
+.bigger {
+    font-size: 150%;
+  }
+ */
+/*This is for Body*/
+
+body{
+  background-color: rgba(240, 238, 238, 0.973);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  
+  /*This is for Container div*/
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /*This is for overview1 div*/
+.overview1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.T1{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 40%;
+  background-color: white;
+  padding-bottom: 12px;
+}
+.AA{
+  display: flex;
+}
+.AAA{
+  display: flex;
+}
+.AAB{
+  display: flex;
+  flex-direction: column;
+}
+.AABA{
+  display: flex;
+
+}
+.AABB{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.AABBA{
+  display: flex;
+  
+  
+}
+.AABBB{
+  display: flex;
+  margin-left: 10px;
+}
+.AABBC{
+  display: flex;
+  margin-left: 10px;
+}
+.AB{
+  display: flex;
+  justify-content: space-between;
+}
+.ABA{
+  display: flex;
+  margin-left: 20px;
+}
+.ABB{
+  display: flex;
+  margin-right: 20px;
+}
+.T2{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 50%;
+}
+.BA{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(240, 238, 238, 0.973);
+}
+.BB{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(240, 238, 238, 0.973);
+}
+.BC{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(240, 238, 238, 0.973);
+}
+.BD{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.THourNo{
+  padding-right: 60px;
+  border-right-width: 0.5px;
+  border-right-style: solid;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-right-color: rgba(240, 238, 238, 0.973);
+}
+.TDayNo{
+  padding-right: 60px;
+  border-right-width: 0.5px;
+  border-right-style: solid;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-right-color: rgba(240, 238, 238, 0.973);
+}
+.TWeekNo{
+  padding-right: 60px;
+  border-right-width: 0.5px;
+  border-right-style: solid;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-right-color: rgba(240, 238, 238, 0.973);
+}
+.BAA{
+  margin-left: 10px;
+}
+.BAB{
+  margin-right: 90px;
+}
+/*This is for overview2 div*/
+.overview2{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+height: 200px;
+width: 100%;
+padding-top: 10px;
+}
+.plan{
+  display: flex;
+  background-color: white;
+  height: 200px;
+  width: 44%;
+  padding-right: 35px;
+  flex-direction: column;
+}
+.ABC{
+  display: flex;
+}
+.ABCA{
+  display: flex;
+  margin-left: 20px;
+}
+.ABCB{
+  display: flex;
+  margin-left: 20px;
+}
+.ABCBA{
+  margin-left: 30px;
+}
+.ABCBB{
+  margin-left: 30px;
+}
+.ABCD{
+  display: flex;
+}
+.watch1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.watchlist{
+  display: flex;
+  background-color: white;
+  height: 200px;
+  width: 43%;
+  flex-direction: column;
+}
+.watchli{
+  margin-left: 20px;
+}
+.icon{
+  margin-left: 350px;
+}
+/*This is for overview3 div*/
+.overview3{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background-color: white;
+margin-left: 41px;
+margin-right: 41px;
+height: 200px;
+}
+.one{
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 150px;
+}
+.A{
+  display: flex;
+}
+.B{
+  display: flex;
+  margin-left: 900px;
+}
+.two{
+  display: flex;
+}
+
+/*This is for overview4 div*/
+.overview4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.recentTask{
+  display: flex;
+  background-color: white;
+  height: 200px;
+  width: 45%;
+}
+.rtone{
+  display: flex;
+  margin-left: 20px;
+}
+rttwo{
+  display: flex;
+}
+.recentRequest{
+  display: flex;
+  background-color: white;
+  height: 200px;
+  width: 45%;
+}
+.rrone{
+  display: flex;
+  margin-left: 20px;
+}
+.rrtwo{
+  display: flex;
+}
+
+
+
+
+  /*This is for main div*/
+
+
+
+
+  /*This is for main div*/
+
+
+
+
+  /*This is for main div*/
