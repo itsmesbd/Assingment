@@ -65,6 +65,7 @@ body{
     padding-left: 11px;
     padding-right: 11px;
     justify-content: space-between;
+    height: 32px;
 }
 
 .requestForm{
