@@ -1,0 +1,111 @@
+
+/*body*/
+body{
+    background-color: rgb(241, 248, 252);
+}
+
+/* main div*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 400px;
+    justify-content: space-between;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-bottom: 11px;
+    justify-content: space-between;
+}
+
+.main3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.overdue{
+    display: flex;
+    flex-direction: column;
+}
+
+.overdueTitle{
+    display: flex;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.ot{
+
+}
+
+.overdueDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.od{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.priority{
+    display: flex;
+    flex-direction: row;
+    padding-left: 11px;
+    padding-right: 11px;
+    justify-content: space-between;
+}
+
+.requestForm{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    padding-left: 11px;
+    padding-right: 11px;
+    justify-content: space-between;
+}
+
+
+.assigned{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11px;
+    
+}
+.assignedTitle{
+    background-color: white;
+    margin-bottom: 5px;
+    width: 274px;
+    height: 46px;
+}
+
+.assignedDetail{
+    background-color: white;
+    height: 250px;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    width: 211.05px;
+    height: 46px;
+    margin-left: 11px;
+}
+.newTitle{
+    background-color: white;
+}
